@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+
+<html>
+ <head>
+  <meta charset="utf-8" />
+  <title>Test</title>
+    <link rel="stylesheet" href="style.css">
+       <script src="http://code.jquery.com/jquery-2.1.3.min.js"></script>
+	  <script src="test2.js"> </script>
+ </head> 
+ <body>  
+    <header>
+    <p id="uppertitle"><img src="webLogo.png" alt="Логотип" /></p>
+    <h1>Основы WEB-технологий</h1>
+             <nav>
+             
+ <ul class="calcForm">
+   <li class="navigation"><a href="index.html">Главная</a></li>
+   <li class="navigation" id="menuX"><a href="groups.html">Web технологии</a>
+        <ul>
+            <li class="dropMenu" id="dropMenu1"><a href="html.html">HTML5</a></li>
+            <li class="dropMenu" id="dropMenu2"><a href="css.html">CSS3</a></li>    
+            <li class="dropMenu" id="dropMenu3"><a href="js.html">JavaScript</a></li>
+        </ul>    
+    </li>
+   <li class="navigation"><a href="calc.html">Калькулятор</a></li>
+   <li class="navigation"><a href="test.html">Тест</a></li>
+</ul>
+            </nav>
+            
+    </header>
+<main>   
+       <form name="testList">
+ <div>Какой тег предназначен для создания ссылок:<br />
+ 
+<label><input name="taglink1" type="radio" value="a" class="radioButton" id="answer1"/>&lt;a&gt;<br /></label>
+<label><input name="taglink1" type="radio" value="a/" />&lt;a /&gt;<br /></label>
+<label><input name="taglink1" type="radio" value="ref" />&lt;ref&gt;<br /></label>
+<label><input name="taglink1" type="radio" value="ref/" />&lt;ref /&gt;<br /></label>
+   
+</div>
+
+<div>Какой тег предназначен для создания нумерованного списка:<br />
+    
+<label><input name="taglist2" type="radio" value="li" />&lt;li&gt;<br /></label>
+<label><input name="taglist2" type="radio" value="dl" />&lt;dl&gt;<br /></label>
+<label><input name="taglist2" type="radio" value="ol" class="radioButton" id="answer2" />&lt;ol&gt;<br /></label><!--Элемент <ol> устанавливает нумерованный (упорядоченный) список -->
+<label><input name="taglist2" type="radio" value="ul" />&lt;ul&gt;<br /></label>
+    
+</div>
+
+<div>Какой тег предназначен для передачи служебной информации браузеру:<br />
+    
+<label><input name="taginfo3" type="radio" value="info" />&lt;info&gt;<br /></label>
+<label><input name="taginfo3" type="radio" value="info/" />&lt;info/&gt;<br /></label>
+<label><input name="taginfo3" type="radio" value="meta" id="answer3" class="radioButton" />&lt;meta&gt;<br /></label><!--Элемент <meta> определяет данные (они называются ещё метатеги), которые используются для хранения информации, предназначенной для браузеров и поисковых систем -->
+<label><input name="taginfo3" type="radio" value="meta/" />&lt;meta/&gt;<br /></label>
+  
+
+</div>
+<div>Какие теги используется при создания таблицы:<br />
+    
+<label><input type="checkbox" name="checkbox1" value="body" class="checkBox1" />&lt;bodyt&gt;<br /></label>
+<label><input type="checkbox" name="checkbox1" value="td" class="checkBox1 checkB"/>&lt;td&gt;<br /></label>     <!--Предназначен для создания одной ячейки таблицы -->
+<label><input type="checkbox" name="checkbox1" value="caption" class="checkBox1 checkB" />&lt;caption&gt;<br /></label>  <!--<caption> предназначен для создания заголовка к таблице -->
+<label><input type="checkbox" name="checkbox1" value="column" class="checkBox1"/>&lt;column&gt;<br /></label>
+    
+</div>
+
+<div>Какие атрибуты используются при создании форм:<br />
+    
+<label><input type="checkbox" name="checkbox2" value="autocomplete" class="checkBox2 checkB"/>autocomplete<br /></label><!--Включает автозаполнение полей формы -->
+<label><input type="checkbox" name="checkbox2" value="action" class="checkBox2 checkB" />action<br /></label><!--Адрес программы или документа, который обрабатывает данные формы -->
+<label><input type="checkbox" name="checkbox2" value="charset" class="checkBox2" />charset<br /></label>
+<label><input type="checkbox" name="checkbox2" value="validate" class="checkBox2" />validate<br /></label>
+
+<button type="button" name="testSubmit" id="testButton"  class="result" >Результат</button>    
+</div>      
+    
+
+
+
+    </form>
+
+
+</main>
+
+  <footer>
+      <address>
+    Пишите <a href="mailto:khmoee@gmail.com">khmoee@gmail.com</a>
+      </address>
+      <p>© Даняев Дмитрий Викторович 2017 г.</p>
+</footer>
+
+ </body> 
+</html>
